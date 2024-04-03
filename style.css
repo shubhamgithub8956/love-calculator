@@ -1,0 +1,182 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url("https://img.freepik.com/premium-photo/two-white-teddy-bears-is-with-heart-conception-love-beautiful-illustration-picture-generative-ai_146671-95446.jpg");
+    background-position: top;
+    background-size: cover;
+    font-family: poppins;
+    height: 100%;
+    overflow: hidden;
+}
+.container{
+    top: 80%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    height: 80vh;
+    width: 60vw;
+    /* box-shadow: inset -8px -8px 12px rgb(185,103,117),
+                inset 8px 8px 12px rgb(201,95,114);
+                border-radius: 50px; */
+}
+.content{
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+}
+.content img{
+    width: 80px;
+    margin-left: 170px;
+}
+.content h1{
+    text-transform: uppercase;
+    text-align: center;
+    color: #00096d;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.inputarea{
+    display: flex;
+}
+.inputarea input{
+    width: 200px;
+    height: 30px;
+    text-align: center;
+    margin: 5px;
+    outline: none;
+    border-radius: 10px;
+    border: 2px solid #01152E;
+    background-color: transparent;
+    box-shadow: 0 0 25px #02CAF4;
+    padding: 20px 40px;
+    font-size: 20px;
+}
+a{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    background-color: rgb(0, 0, 104);
+    padding: 10px;
+    margin: 0px 6px;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+    width: 50%;
+    border-radius: 20px;
+    margin-left: 23%;
+}
+#print{
+    display: flex;
+    justify-content: center;
+    background-color: #00096d;
+    margin: 20px;
+    padding: 20px 50px;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+#statement{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+@media (max-width: 600px) {
+    body{
+        background-image: url("https://img.freepik.com/premium-photo/two-white-teddy-bears-is-with-heart-conception-love-beautiful-illustration-picture-generative-ai_146671-95446.jpg");
+        background-position: top;
+        background-size: cover;
+        /* background-repeat: no-repeat; */
+        font-family: poppins;
+        height: 100%;
+        overflow: hidden;
+    }
+
+    .container{
+        top: 50%;
+        left: 50%;
+        position: absolute;
+        transform: translate(-50%,-50%);
+        height: 80vh;
+        width: 60vw;
+        /* box-shadow: inset -8px -8px 12px rgb(185,103,117),
+                    inset 8px 8px 12px rgb(201,95,114);
+                    border-radius: 50px; */
+    }
+    .content{
+        top: 50%;
+        left: 50%;
+        position: absolute;
+        transform: translate(-50%,-50%);
+    }
+    .content img{
+        width: 80px;
+        margin-left: 170px;
+    }
+    .content h1{
+        text-transform: uppercase;
+        text-align: center;
+        color: #00096d;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 20px;
+    }
+    .inputarea{
+        display: flex;
+    }
+    .inputarea input{
+        width: 150px;
+        height: 20px;
+        text-align: center;
+        margin: 5px;
+        outline: none;
+        border-radius: 10px;
+        border: 2px solid #01152E;
+        background-color: #fef8a66b;
+        box-shadow: 0 0 25px #02CAF4;
+        font-size: 15px;
+        padding-left: 30px;
+        color: red;
+    }
+    a{
+        display: flex;
+        justify-content: center;
+        text-decoration: none;
+        background-color: rgb(0, 0, 104);
+        padding: 10px;
+        margin: 0px 6px;
+        color: #fff;
+        text-transform: uppercase;
+        font-size: 20px;
+        font-weight: bold;
+        width: 50%;
+        border-radius: 20px;
+        margin-left: 23%;
+    }
+    #print{
+        display: flex;
+        justify-content: center;
+        background-color: #00096d;
+        margin: 20px;
+        padding: 20px 50px;
+        color: #fff;
+        text-transform: uppercase;
+        font-size: 20px;
+        text-align: center;
+        border-radius: 10px;
+    }
+    #statement{
+        display: flex;
+        justify-content: center;
+        margin-top: 50px;
+        text-transform: uppercase;
+        font-size: 20px;
+        color: red;
+    }
+}
